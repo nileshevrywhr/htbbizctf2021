@@ -15,5 +15,5 @@ By the end of the competition, we finished in position #240 with 7925 points and
 
 ### Web
 
-* [Time](web/time_COMPLETE/)
+* [Time](web/time/)
 * NoteQL
