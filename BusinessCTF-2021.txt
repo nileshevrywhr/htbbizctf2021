@@ -1,0 +1,22 @@
+web - time
+PHP 7.4 - flag at /flag - need shell read permission through format string attack - buffer overflow?
+
+web - noteQL
+graphql - continuous POST /graphql for updating list - change to GET /graphql & query AllNotes
+
+web - Emergency
+forge JWT token using RS256 - create keys first - n & e at localhost:port/.well-known/jwks.json - n & e are given, they need to be converted to the base64 endcoded format, and use it to generate the new token
+
+fullpwn - manager
+krb524 - kerbrute to enum user - impacket needed
+https://www.roguelynn.com/words/explain-like-im-5-kerberos/
+
+fullpwn - rocket
+rocket hosting on 80
+rocket chat on 3000
+
+pwn - employee manager
+- nc ip address port
+- app running to view edit employee details
+- hourly rate & hours worked get swapped during storage/displaying
+- -1 index shows hourly rate > max integer 2^32 (4 billion) unsigned integer > hours signed int
