@@ -1,3 +1,8 @@
+# Challenge Description
+
+I don't think that replacing your REST APIs means that you don't need access controls. Can you read the admin's tasks from this minimal note taking application?
+
+# The way I did it
 Open the IP ADDRESS:PORT in your browser to find the fastest note-taking experience on planet earth(atleast of all the apps I've used).
 
 Interact with the app by entering notes in the input to add. Complete & Delete notes to notice the note you delete is number 6.
