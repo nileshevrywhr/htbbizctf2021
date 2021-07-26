@@ -7,7 +7,7 @@
 
 In this CTF I participated with **DNotBot**.
 
-By the end of the competition, we finished in position #240 with 7925 points and 3/44 solved challenges.
+By the end of the competition, we finished in position #240 with 925 points and 3/44 solved challenges.
 
 *(But it was my first CTF, so I can at least pride myself on that :)* 
 
@@ -15,5 +15,4 @@ By the end of the competition, we finished in position #240 with 7925 points and
 
 ### Web
 
-* [Time](web/time/)
-* NoteQL
+* [NoteQL](web/NoteQL/)
