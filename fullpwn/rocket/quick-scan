@@ -1,0 +1,106 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-07-23 10:33 EDT
+Nmap scan report for 10.129.171.222
+Host is up (0.23s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3000/tcp open  ppp
+
+Nmap done: 1 IP address (1 host up) scanned in 76.89 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-07-23 10:39 EDT
+Nmap scan report for 10.129.171.222
+Host is up (0.23s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title:  Rocket Hosting 
+3000/tcp open  ppp?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     X-XSS-Protection: 1
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: sameorigin
+|     X-Instance-ID: jazD3JaGwdYSgarzX
+|     Content-Type: text/html; charset=utf-8
+|     Vary: Accept-Encoding
+|     Date: Fri, 23 Jul 2021 14:39:42 GMT
+|     Connection: close
+|     <!DOCTYPE html>
+|     <html>
+|     <head>
+|     <link rel="stylesheet" type="text/css" class="__meteor-css__" href="/789f2fee702e2a6a62ec245003ce4734eeec6f9a.css?meteor_css_resource=true">
+|     <meta charset="utf-8" />
+|     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+|     <meta http-equiv="expires" content="-1" />
+|     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+|     <meta name="fragment" content="!" />
+|     <meta name="distribution" content="global" />
+|     <meta name="rating" content="general" />
+|     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+|     <meta name="mobile-web-app-capable" cont
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     X-XSS-Protection: 1
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: sameorigin
+|     X-Instance-ID: jazD3JaGwdYSgarzX
+|     Content-Type: text/html; charset=utf-8
+|     Vary: Accept-Encoding
+|     Date: Fri, 23 Jul 2021 14:39:51 GMT
+|     Connection: close
+|     <!DOCTYPE html>
+|     <html>
+|     <head>
+|     <link rel="stylesheet" type="text/css" class="__meteor-css__" href="/789f2fee702e2a6a62ec245003ce4734eeec6f9a.css?meteor_css_resource=true">
+|     <meta charset="utf-8" />
+|     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+|     <meta http-equiv="expires" content="-1" />
+|     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+|     <meta name="fragment" content="!" />
+|     <meta name="distribution" content="global" />
+|     <meta name="rating" content="general" />
+|     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+|_    <meta name="mobile-web-app-capable" cont
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3000-TCP:V=7.80%I=7%D=7/23%Time=60FAD4AE%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,348A,"HTTP/1\.1\x20200\x20OK\r\nX-XSS-Protection:\x201\r\nX-Co
+SF:ntent-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20sameorigin\r\nX-I
+SF:nstance-ID:\x20jazD3JaGwdYSgarzX\r\nContent-Type:\x20text/html;\x20char
+SF:set=utf-8\r\nVary:\x20Accept-Encoding\r\nDate:\x20Fri,\x2023\x20Jul\x20
+SF:2021\x2014:39:42\x20GMT\r\nConnection:\x20close\r\n\r\n<!DOCTYPE\x20htm
+SF:l>\n<html>\n<head>\n\x20\x20<link\x20rel=\"stylesheet\"\x20type=\"text/
+SF:css\"\x20class=\"__meteor-css__\"\x20href=\"/789f2fee702e2a6a62ec245003
+SF:ce4734eeec6f9a\.css\?meteor_css_resource=true\">\n<meta\x20charset=\"ut
+SF:f-8\"\x20/>\n\t<meta\x20http-equiv=\"content-type\"\x20content=\"text/h
+SF:tml;\x20charset=utf-8\"\x20/>\n\t<meta\x20http-equiv=\"expires\"\x20con
+SF:tent=\"-1\"\x20/>\n\t<meta\x20http-equiv=\"X-UA-Compatible\"\x20content
+SF:=\"IE=edge\"\x20/>\n\t<meta\x20name=\"fragment\"\x20content=\"!\"\x20/>
+SF:\n\t<meta\x20name=\"distribution\"\x20content=\"global\"\x20/>\n\t<meta
+SF:\x20name=\"rating\"\x20content=\"general\"\x20/>\n\t<meta\x20name=\"vie
+SF:wport\"\x20content=\"width=device-width,\x20initial-scale=1,\x20maximum
+SF:-scale=1,\x20user-scalable=no\"\x20/>\n\t<meta\x20name=\"mobile-web-app
+SF:-capable\"\x20cont")%r(HTTPOptions,348A,"HTTP/1\.1\x20200\x20OK\r\nX-XS
+SF:S-Protection:\x201\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Opt
+SF:ions:\x20sameorigin\r\nX-Instance-ID:\x20jazD3JaGwdYSgarzX\r\nContent-T
+SF:ype:\x20text/html;\x20charset=utf-8\r\nVary:\x20Accept-Encoding\r\nDate
+SF::\x20Fri,\x2023\x20Jul\x202021\x2014:39:51\x20GMT\r\nConnection:\x20clo
+SF:se\r\n\r\n<!DOCTYPE\x20html>\n<html>\n<head>\n\x20\x20<link\x20rel=\"st
+SF:ylesheet\"\x20type=\"text/css\"\x20class=\"__meteor-css__\"\x20href=\"/
+SF:789f2fee702e2a6a62ec245003ce4734eeec6f9a\.css\?meteor_css_resource=true
+SF:\">\n<meta\x20charset=\"utf-8\"\x20/>\n\t<meta\x20http-equiv=\"content-
+SF:type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>\n\t<meta\x20htt
+SF:p-equiv=\"expires\"\x20content=\"-1\"\x20/>\n\t<meta\x20http-equiv=\"X-
+SF:UA-Compatible\"\x20content=\"IE=edge\"\x20/>\n\t<meta\x20name=\"fragmen
+SF:t\"\x20content=\"!\"\x20/>\n\t<meta\x20name=\"distribution\"\x20content
+SF:=\"global\"\x20/>\n\t<meta\x20name=\"rating\"\x20content=\"general\"\x2
+SF:0/>\n\t<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20i
+SF:nitial-scale=1,\x20maximum-scale=1,\x20user-scalable=no\"\x20/>\n\t<met
+SF:a\x20name=\"mobile-web-app-capable\"\x20cont");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 56.11 seconds

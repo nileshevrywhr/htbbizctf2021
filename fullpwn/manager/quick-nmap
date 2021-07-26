@@ -1,0 +1,15 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-07-23 09:46 EDT
+Stats: 0:01:13 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 75.02% done; ETC: 09:48 (0:00:24 remaining)
+Stats: 0:01:47 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 93.80% done; ETC: 09:48 (0:00:07 remaining)
+Nmap scan report for 10.129.171.208
+Host is up (0.24s latency).
+Not shown: 996 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+4444/tcp  open  krb524
+8080/tcp  open  http-proxy
+50389/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 125.63 seconds

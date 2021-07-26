@@ -1,0 +1,10 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-07-25 01:20 EDT
+Stats: 0:01:59 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 26.82% done; ETC: 01:27 (0:05:25 remaining)
+Nmap scan report for 10.129.1.2
+Host is up (0.27s latency).
+Not shown: 65534 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 295.04 seconds
