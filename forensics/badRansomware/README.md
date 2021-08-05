@@ -24,7 +24,10 @@
 
 ## functions used
 - ChrW: converts ascii code to strings
-- UBound:
+- UBound: upper bound
 
 ## layer1.py
-converts the 2 images in docm into the encoded payload
+converts the 2 images in docm into the encoded payload; ascii code to char > bytes > str
+
+## layer2.py
+splits of the given characters; ascii code to char > bytes > str
