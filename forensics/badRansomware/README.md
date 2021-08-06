@@ -23,11 +23,13 @@
 - remove them to get a clear idea of what the VBScript is doing
 
 ## functions used
-- ChrW: converts ascii code to strings
+- ChrW: converts ascii code to characters
 - UBound: upper bound
 
 ## layer1.py
-converts the 2 images in docm into the encoded payload; ascii code to char > bytes > str
+converts the 2 images in docm into the VBScript payload; ascii code to char > bytes > str
 
 ## layer2.py
-splits of the given characters; ascii code to char > bytes > str
+converts VBScript into obsfuscated powershell script; ascii code to char > bytes > str
+
+> use powershell in kali for deobsfucation
